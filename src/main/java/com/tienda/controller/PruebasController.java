@@ -38,5 +38,7 @@ public class PruebasController {
         model.addAttribute("totalProductos", productos.size());
         model.addAttribute("categorias", categorias);
         return "/pruebas/listado";
+        
+        
     }
 }
