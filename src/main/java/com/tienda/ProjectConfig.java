@@ -110,7 +110,7 @@ public class ProjectConfig implements WebMvcConfigurer {
                 .username("pedro")
                 .password("{noop}789")
                 .roles("USER")
-                .build();
+                .build();  
         return new InMemoryUserDetailsManager(user, sales, admin);
     }
 }
